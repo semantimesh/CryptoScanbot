@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>CryptoScaner</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>🔥 CryptoScaner</h1>
+    <button id="scanBtn" class="scan-btn">Сканировать сейчас</button>
+  </div>
+
+  <div id="status" class="status">Готов к сканированию</div>
+
+  <div id="results" class="results">
+    <!-- Карточки монет будут добавляться сюда через JS -->
+  </div>
+
+  <div id="chartContainer" class="chart-container" style="display: none;">
+    <h2 id="chartSymbol"></h2>
+    <canvas id="priceChart" width="400" height="200"></canvas>
+    <button id="closeChart" class="close-btn">Закрыть график</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
