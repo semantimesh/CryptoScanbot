@@ -3,8 +3,8 @@ const axios = require("axios");
 const TelegramBot = require("node-telegram-bot-api");
 const path = require('path');
 
-const TOKEN = "ВСТАВЬ_СВОЙ_ТОКЕН";
-const CHAT_ID = "ВСТАВЬ_СВОЙ_CHAT_ID";
+const TOKEN = "AAGIx8JRgvQdQHmWB1Yvs-bzKx6_4E1d8a0";
+const CHAT_ID = "1725701059";
 
 const bot = new TelegramBot(TOKEN);
 const app = express();
